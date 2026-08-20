@@ -106,7 +106,7 @@ class MockTopicJudge:
             approved=True,
             relevance_score=75,
             evidence_score=70,
-            hallucination_risk=10,
+            hallucination_risk=0,5,
             debate_value=65,
             action="keep",
             reason="Mock judge varsayilan onayi.",
