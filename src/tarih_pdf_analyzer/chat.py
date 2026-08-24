@@ -192,7 +192,7 @@ class FigureChatService:
                 model=self.settings.gemini_model,
                 system=system,
                 user=user,
-                temperature=0.15,
+                temperature=0.2,
                 max_output_tokens=3200,
             )
         except Exception:
