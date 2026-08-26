@@ -38,20 +38,4 @@ tarih-analyze ingest data/pdfs --force
 
 PDF ve TXT kaynaklar GitHub'a eklenmez. `data/pdfs` ve `data/texts` sadece yerel kaynak klasorleridir.
 
-## LLM Judge
 
-Tartisma konularini yargilamak icin:
-
-```powershell
-tarih-analyze judge-topics --book-id 1 --limit 5
-```
-
-API kullanmadan denemek icin:
-
-```powershell
-tarih-analyze judge-topics --book-id 1 --mock --limit 5
-```
-
-## Not
-
-Bu repo demo kodunu icerir. `.env`, PDF/TXT kaynaklar, raporlar, sanal ortam ve cache klasorleri Git disinda tutulur.
