@@ -15,7 +15,7 @@ def split_oversized_text(text: str, max_tokens: int) -> list[str]:
     if estimate_tokens(text) <= max_tokens:
         return [text]
 
-    max_words = max(50, int(max_tokens / 1.35))
+    max_words = max(100, int(max_tokens / 1.35))
     return [" ".join(words[index : index + max_words]) for index in range(0, len(words), max_words)]
 
 
