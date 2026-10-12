@@ -29,7 +29,7 @@ class GeminiAnalyzer:
             model=self.model,
             system=system,
             user=user,
-            temperature=0.2,
+            temperature=0.3,
             max_output_tokens=3500,
         )
         if content.startswith("```json"):
